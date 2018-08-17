@@ -1,0 +1,25 @@
+<div class="title">
+  <div class="title-logo">
+    <img src="/assets/logo-gt.png" alt="gt-logo">
+  </div>
+  <div class="title-text">
+    <div class="line-top">Office of Registrar</div>
+    <div class="line-btm">Credit Transfer Request</div>
+  </div>
+</div>
+
+<div class="login-nav">
+  {% if user %}
+  <div class="login-nav-menu">
+    <button type="button" class="btn btn-default btn-xs">
+      <a href="/logout">Log Out</a>
+    </button>
+  </div>
+  {% else %}
+  <div class="login-nav-menu">
+    <button type="button" class="btn btn-default btn-xs">
+      <a href="/login">Log In</a>
+    </button>
+  </div>
+  {% endif %}
+</div>

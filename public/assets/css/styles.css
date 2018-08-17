@@ -1,0 +1,125 @@
+body {
+  min-width: 320px; }
+  body header {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #262626;
+    justify-content: space-between; }
+    @media (min-width: 1200px) {
+      body header {
+        justify-content: center; } }
+    body header .title {
+      max-width: 950px;
+      flex: 80%;
+      height: 60px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start; }
+      @media (min-width: 640px) {
+        body header .title {
+          height: 67px; } }
+      @media (min-width: 768px) {
+        body header .title {
+          height: 74px; } }
+      @media (min-width: 992px) {
+        body header .title {
+          height: 74px; } }
+      @media (min-width: 992px) {
+        body header .title {
+          height: 88px;
+          margin-top: 5px;
+          padding-left: 10px; } }
+      body header .title .title-logo img {
+        width: 125px; }
+        @media (min-width: 414px) {
+          body header .title .title-logo img {
+            margin-left: 10px; } }
+        @media (min-width: 640px) {
+          body header .title .title-logo img {
+            width: 135px; } }
+        @media (min-width: 768px) {
+          body header .title .title-logo img {
+            width: 145px; } }
+        @media (min-width: 992px) {
+          body header .title .title-logo img {
+            width: 170px; } }
+      body header .title .title-text {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        color: white;
+        margin-left: -5px; }
+        @media (min-width: 992px) {
+          body header .title .title-text {
+            margin-left: 5px; } }
+        body header .title .title-text .line-top {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: flex-end;
+          font-size: 15px;
+          font-family: 'Heebo', sans-serif;
+          padding-top: 13px; }
+          @media (min-width: 640px) {
+            body header .title .title-text .line-top {
+              font-size: 16px;
+              padding-top: 15px; } }
+          @media (min-width: 768px) {
+            body header .title .title-text .line-top {
+              font-size: 18px;
+              padding-top: 16px; } }
+          @media (min-width: 992px) {
+            body header .title .title-text .line-top {
+              font-size: 20px;
+              padding-top: 20px; } }
+        body header .title .title-text .line-btm {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: flex-start;
+          font-size: 12px;
+          color: #eeb211; }
+          @media (min-width: 640px) {
+            body header .title .title-text .line-btm {
+              font-size: 13px; } }
+          @media (min-width: 992px) {
+            body header .title .title-text .line-btm {
+              font-size: 16px;
+              margin-top: -3px; } }
+    body header .login-nav {
+      max-width: 240px;
+      flex: 20%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      padding-top: 3px;
+      padding-right: 5px; }
+      @media (min-width: 414px) {
+        body header .login-nav {
+          padding-top: 5px;
+          padding-right: 8px; } }
+      @media (min-width: 640px) {
+        body header .login-nav {
+          padding: 8px; } }
+      @media (min-width: 992px) {
+        body header .login-nav {
+          padding: 15px; } }
+      body header .login-nav .login-nav-menu button {
+        padding: 0px 2px;
+        font-size: 11px; }
+        @media (min-width: 414px) {
+          body header .login-nav .login-nav-menu button {
+            padding: 2px 4px;
+            font-size: 12px; } }
+        @media (min-width: 640px) {
+          body header .login-nav .login-nav-menu button {
+            font-size: 13px; } }
+        @media (min-width: 992px) {
+          body header .login-nav .login-nav-menu button {
+            padding: 3px 6px;
+            font-size: 14px; } }
+  body .main .landing {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
